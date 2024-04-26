@@ -1,0 +1,52 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Default text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Styles for Home Page (index.html) */
+section.home {
+    background-color: #f9f9f9; /* Light gray background */
+    display: flex;
+    justify-content: space-between; /* Align items to the left and right */
+    align-items: center;
+}
+
+section.home h2 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #444; /* Heading color for home page */
+}
+
+section.home p {
+    color: #666; /* Text color for home page */
+}
+
+section.home img {
+    max-width: 40%; /* Adjust the width of the image */
+    height: auto;
+    margin-right: 20px; /* Add some margin to the right */
+}
